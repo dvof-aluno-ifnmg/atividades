@@ -12,23 +12,32 @@ body{
 #menubar{
     background-color: white;
     border-bottom: 1px solid black;
-    border-top: 10px solid rgb(222, 222, 222);
     height: 45px;
-    border: 3px, solid, yellow;
 }
 #menutitle{
-    width: 170px;
-    margin: 3% 30%;
+    width: 20%;
+    margin: 3px 20% 0px 10%; 
     float: left;
-    border: 1px solid red;
 }
 
 #menulinks{
-    width: 173px;
-    margin: 3% 30%;
+    margin: 13px 10% 0% 0%;
     float: right;
-    border: 1px solid rgb(60, 255, 0);
 }
+
+a{
+    color: #535353;
+    padding: 10px
+}
+a:hover{
+    padding: 10px;
+    background-color: #b9c941;
+}
+a:active{
+    background-color: #e1ff00;
+    color: #444444;
+}
+
 
 #ngreen{
     color: #b9c941;
@@ -36,4 +45,12 @@ body{
 
 .publ {
     background-color: white;
+    margin: 10px 0 10px 0;
+}
+p{
+    margin-left:0 0 0 1%;
+}
+.imgpeq{
+    width: 15%;
+    margin-inline: 30px;
 }
